@@ -14,7 +14,7 @@
     'freq'    : '1MS',
     'variable': ['adt', 'err', 'sla', 'ugos', 'ugosa', 'vgos', 'vgosa'],
     'out_name': 'aviso_pcsb_bs_1',
-    'data_raw_path': "<your_moth_wrappy_path>/data/motu/pcse_bs_aviso",
+    'data_raw_path': "<your_moth_wrappy_path>/data/motu/aviso",
     'copernicus_credentials': "<your_moth_wrappy_path>/.copernicus_credentials"
     }
 }
