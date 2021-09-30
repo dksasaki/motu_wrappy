@@ -12,6 +12,13 @@ if __name__ == '__main__':
     # that do not set a less verbose level.
     logging.basicConfig(level=logging.NOTSET)
 
+
+    # BEFORE STARTING, you need to configure:
+    
+    # - scripts/utils/config.py
+    # - data/motu_info.txt 
+    
+
     # 1) Define variables
     # 2) Get information from default dictionary
     # 3) Update dictionary values based on variables defined by the user
@@ -33,7 +40,7 @@ if __name__ == '__main__':
 
     dataref = 'pcse_bs_aviso'
     # read reference file
-    dict_details = ut.get_dict_paths('/home/otel/Dropbox/trabalho_irado/2021/postdoc/2021_data/motu_wrappy/data/motu_info.txt')
+    dict_details = ut.get_dict_paths('/path/to/your/motu_info.txt')
     dict_details = dict_details[dataref]
 
     # 1) Define variables
