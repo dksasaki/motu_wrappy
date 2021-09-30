@@ -1,0 +1,6 @@
+.mycopernicus_credentials
+scripts/utils/__pycache__
+data/motu/aviso/*nc
+data/era5/*nc
+scripts/download.py
+scripts/cut_grid.py
