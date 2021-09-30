@@ -22,7 +22,7 @@
 
 ## Python Dependencies
 
-With version 2.7.9+ or 3.4+.
+With python version 3.4+ (motu client).
 
 
 - [motuclient](https://help.marine.copernicus.eu/en/articles/4796533-what-are-the-motu-client-motuclient-and-python-requirements)
