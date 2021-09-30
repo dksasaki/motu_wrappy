@@ -12,7 +12,7 @@
 
   In order to use the services of copernicus via `scripts/download_motu.py`, a credential is needed. It should be provided as a text file named `scripts/.copernicus_credentials`, where the first line is the user name and the second line the password as in the example below:
 
-  `scripts/.copernicus_credentials`:
+  `.copernicus_credentials`:
 
     your_copernicus_username
     your_copernicus_password
