@@ -1,0 +1,20 @@
+{
+'pcse_bs_aviso': {
+    'database': 'SEALEVEL_GLO_PHY_L4_REP_OBSERVATIONS_008_047',
+    'WESN': ['-50', '-26', '-37', '-12'],
+    'mparam': {
+        'longitude-min': 300,
+        'longitude-max': 330,
+        'latitude-min' : -37,
+        'latitude-max' : -16,
+        'date-min': '2020-05-01 00:00:00',
+        'date-max': '2020-06-01 00:00:00',
+        'variable': ['adt', 'err', 'sla', 'ugos', 'ugosa', 'vgos', 'vgosa'],
+    },
+    'freq'    : '1MS',
+    'variable': ['adt', 'err', 'sla', 'ugos', 'ugosa', 'vgos', 'vgosa'],
+    'out_name': 'aviso_pcsb_bs_1',
+    'data_raw_path': "<your_moth_wrappy_path>/data/motu/pcse_bs_aviso",
+    'copernicus_credentials': "<your_moth_wrappy_path>/.copernicus_credentials"
+    }
+}
