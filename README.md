@@ -12,10 +12,18 @@
 
   In order to use the services of copernicus via `scripts/download_motu.py`, a credential is needed. It should be provided as a text file named `scripts/.copernicus_credentials`, where the first line is the user name and the second line the password as in the example below:
 
-  `.copernicus_credentials`:
+  `.copernicus_credentials`
 
     your_copernicus_username
     your_copernicus_password
 
   Available download options are in `scripts/utils/config.py`. You can add new inputs to the configs by finding a product in https://resources.marine.copernicus.eu and checking the download scripts. 
 
+
+## Python Dependencies
+
+With version 2.7.9+ or 3.4+.
+
+
+- [motuclient](https://help.marine.copernicus.eu/en/articles/4796533-what-are-the-motu-client-motuclient-and-python-requirements)
+- pandas
