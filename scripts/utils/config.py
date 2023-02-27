@@ -67,8 +67,8 @@ motu_params =   {
             },
     'phy-001-030-daily' : {
         'motu': 'http://my.cmems-du.eu/motu-web/Motu',
-        'service-id' : 'GLOBAL_REANALYSIS_PHY_001_030-TDS',
-        'product-id': 'global-reanalysis-phy-001-030-daily',
+        'service-id' : 'GLOBAL_MULTIYEAR_PHY_001_030-TDS',
+        'product-id': 'cmems_mod_glo_phy_my_0.083_P1D-m',
         'longitude-min': -180,
         'longitude-max': 179.5,
         'latitude-min': -80,
